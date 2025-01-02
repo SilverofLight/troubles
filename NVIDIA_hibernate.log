@@ -1,0 +1,468 @@
+Jan 01 22:36:02 lee systemd-logind[582]: The system will hibernate now!
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.0132] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.0144] device (enp7s0): state change: unavailable -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.0254] device (p2p-dev-wlp0s20f3): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.0265] manager: NetworkManager state is now ASLEEP
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.0272] device (wlp0s20f3): state change: activated -> deactivating (reason 'sleeping', managed-type: 'full')
+Jan 01 22:36:02 lee systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 01 22:36:02 lee systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 01 22:36:02 lee kernel: wlp0s20f3: deauthenticating from 24:62:ce:aa:75:70 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jan 01 22:36:02 lee wpa_supplicant[641]: nl80211: send_event_marker failed: Source based routing not supported
+Jan 01 22:36:02 lee wpa_supplicant[641]: wlp0s20f3: CTRL-EVENT-DISCONNECTED bssid=24:62:ce:aa:75:70 reason=3 locally_generated=1
+Jan 01 22:36:02 lee wpa_supplicant[641]: wlp0s20f3: CTRL-EVENT-DSCP-POLICY clear_all
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.1785] device (wlp0s20f3): supplicant interface state: completed -> disconnected
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.1786] device (wlp0s20f3): state change: deactivating -> disconnected (reason 'sleeping', managed-type: 'full')
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.1790] dhcp4 (wlp0s20f3): canceled DHCP transaction
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.1790] dhcp4 (wlp0s20f3): activation: beginning transaction (timeout in 45 seconds)
+Jan 01 22:36:02 lee avahi-daemon[579]: Withdrawing address record for fe80::4375:2d7a:f8ae:2ae5 on wlp0s20f3.
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.1790] dhcp4 (wlp0s20f3): state changed no lease
+Jan 01 22:36:02 lee avahi-daemon[579]: Leaving mDNS multicast group on interface wlp0s20f3.IPv6 with address fe80::4375:2d7a:f8ae:2ae5.
+Jan 01 22:36:02 lee avahi-daemon[579]: Interface wlp0s20f3.IPv6 no longer relevant for mDNS.
+Jan 01 22:36:02 lee avahi-daemon[579]: Interface wlp0s20f3.IPv4 no longer relevant for mDNS.
+Jan 01 22:36:02 lee avahi-daemon[579]: Leaving mDNS multicast group on interface wlp0s20f3.IPv4 with address 10.79.115.183.
+Jan 01 22:36:02 lee avahi-daemon[579]: Withdrawing address record for 10.79.115.183 on wlp0s20f3.
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.2075] device (wlp0s20f3): set-hw-addr: set MAC address to 0A:5D:CB:02:81:CD (scanning)
+Jan 01 22:36:02 lee avahi-daemon[579]: Joining mDNS multicast group on interface wlp0s20f3.IPv4 with address 10.79.115.183.
+Jan 01 22:36:02 lee avahi-daemon[579]: New relevant interface wlp0s20f3.IPv4 for mDNS.
+Jan 01 22:36:02 lee avahi-daemon[579]: Registering new address record for 10.79.115.183 on wlp0s20f3.IPv4.
+Jan 01 22:36:02 lee avahi-daemon[579]: Withdrawing address record for 10.79.115.183 on wlp0s20f3.
+Jan 01 22:36:02 lee avahi-daemon[579]: Leaving mDNS multicast group on interface wlp0s20f3.IPv4 with address 10.79.115.183.
+Jan 01 22:36:02 lee avahi-daemon[579]: Interface wlp0s20f3.IPv4 no longer relevant for mDNS.
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.2735] device (wlp0s20f3): state change: disconnected -> unmanaged (reason 'unmanaged-sleeping', managed-type: 'full')
+Jan 01 22:36:02 lee NetworkManager[578]: <info>  [1735742162.4199] device (wlp0s20f3): set-hw-addr: reset MAC address to F8:5E:A0:09:A0:C9 (unmanage)
+Jan 01 22:36:02 lee wpa_supplicant[641]: p2p-dev-wlp0s20: CTRL-EVENT-DSCP-POLICY clear_all
+Jan 01 22:36:02 lee systemd[1]: Reached target Sleep.
+Jan 01 22:36:02 lee systemd[1]: Starting NVIDIA system hibernate actions...
+Jan 01 22:36:02 lee wpa_supplicant[641]: p2p-dev-wlp0s20: CTRL-EVENT-DSCP-POLICY clear_all
+Jan 01 22:36:02 lee wpa_supplicant[641]: nl80211: deinit ifname=p2p-dev-wlp0s20 disabled_11b_rates=0
+Jan 01 22:36:02 lee hibernate[1633106]: nvidia-hibernate.service
+Jan 01 22:36:02 lee logger[1633106]: <13>Jan  1 22:36:02 hibernate: nvidia-hibernate.service
+Jan 01 22:36:02 lee wpa_supplicant[641]: wlp0s20f3: CTRL-EVENT-DSCP-POLICY clear_all
+Jan 01 22:36:02 lee wpa_supplicant[641]: wlp0s20f3: CTRL-EVENT-DSCP-POLICY clear_all
+Jan 01 22:36:02 lee wpa_supplicant[641]: nl80211: deinit ifname=wlp0s20f3 disabled_11b_rates=0
+Jan 01 22:36:03 lee kernel: xdg-desktop-por[998948]: segfault at 0 ip 0000000000000000 sp 00007ffdd7899798 error 14 likely on CPU 6 (core 2, socket 0)
+Jan 01 22:36:03 lee kernel: Code: Unable to access opcode bytes at 0xffffffffffffffd6.
+Jan 01 22:36:03 lee systemd-coredump[1633140]: Process 998948 (xdg-desktop-por) of user 1000 terminated abnormally with signal 11/SEGV, processing...
+Jan 01 22:36:03 lee systemd[1]: Started Process Core Dump (PID 1633140/UID 0).
+Jan 01 22:36:03 lee systemd-coredump[1633142]: Process 998948 (xdg-desktop-por) of user 1000 dumped core.
+                                               
+                                               Stack trace of thread 998948:
+                                               #0  0x0000000000000000 n/a (n/a + 0x0)
+                                               #1  0x000078bd36f9d909 gdk_x11_atom_to_xatom_for_display (libgdk-3.so.0 + 0x8a909)
+                                               #2  0x000078bd36f8bf62 n/a (libgdk-3.so.0 + 0x78f62)
+                                               #3  0x000078bd36f934e9 n/a (libgdk-3.so.0 + 0x804e9)
+                                               #4  0x000078bd36f96284 n/a (libgdk-3.so.0 + 0x83284)
+                                               #5  0x000078bd36f3768b gdk_display_get_event (libgdk-3.so.0 + 0x2468b)
+                                               #6  0x000078bd36f96810 n/a (libgdk-3.so.0 + 0x83810)
+                                               #7  0x000078bd37aa8559 n/a (libglib-2.0.so.0 + 0x5d559)
+                                               #8  0x000078bd37b0b257 n/a (libglib-2.0.so.0 + 0xc0257)
+                                               #9  0x000078bd37aa9287 g_main_loop_run (libglib-2.0.so.0 + 0x5e287)
+                                               #10 0x000061e8adf84218 n/a (n/a + 0x0)
+                                               #11 0x000078bd36cc9e08 n/a (libc.so.6 + 0x25e08)
+                                               #12 0x000078bd36cc9ecc __libc_start_main (libc.so.6 + 0x25ecc)
+                                               #13 0x000061e8adf84395 n/a (n/a + 0x0)
+                                               ELF object binary architecture: AMD x86-64
+Jan 01 22:36:03 lee systemd[1]: systemd-coredump@70-1633140-0.service: Deactivated successfully.
+Jan 01 22:36:03 lee systemd[1]: systemd-coredump@70-1633140-0.service: Consumed 223ms CPU time, 106.8M memory peak.
+Jan 01 22:36:03 lee systemd[949]: xdg-desktop-portal-gtk.service: Main process exited, code=dumped, status=11/SEGV
+Jan 01 22:36:03 lee systemd[949]: xdg-desktop-portal-gtk.service: Failed with result 'core-dump'.
+Jan 01 22:36:03 lee systemd[949]: xdg-desktop-portal-gtk.service: Consumed 15.663s CPU time, 38.2M memory peak, 17.9M memory swap peak.
+Jan 01 22:36:04 lee bluetoothd[581]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+Jan 01 22:36:04 lee bluetoothd[581]: profiles/audio/avdtp.c:handle_unanswered_req() No reply to Suspend request
+Jan 01 22:36:04 lee wireplumber[442522]: spa.bluez5: Failed to release transport /org/bluez/hci0/dev_21_F4_99_0B_EA_E5/sep2/fd12: Input/output error
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/ldac
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/aptx_hd
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx_hd
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/aptx
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/aac
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aac
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/opus_g
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/opus_g
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/sbc
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/sbc
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/faststream
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/faststream_duplex
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/opus_05
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/opus_05
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+Jan 01 22:36:04 lee bluetoothd[581]: Endpoint unregistered: sender=:1.3796 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+Jan 01 22:36:04 lee bluetoothd[581]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 21:F4:99:0B:EA:E5: Protocol not available
+Jan 01 22:36:04 lee bluetoothd[581]: plugins/policy.c:reconnect_timeout() Reconnecting services failed: Protocol not available (92)
+Jan 01 22:36:12 lee systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Jan 01 22:36:23 lee steam[447253]: src/clientdll/steamengine.cpp (2773) : Assertion Failed: CSteamEngine::BMainLoop appears to have stalled > 15 seconds without event signalled
+Jan 01 22:36:23 lee steam[447253]: src/clientdll/steamengine.cpp (2773) : Assertion Failed: CSteamEngine::BMainLoop appears to have stalled > 15 seconds without event signalled
+Jan 01 22:36:24 lee steam[447253]: assert_20250101223623_40.dmp[1633218]: Uploading dump (out-of-process) [proxy 'http://127.0.0.1:7890']
+Jan 01 22:36:24 lee steam[447253]: /tmp/dumps/assert_20250101223623_40.dmp
+Jan 01 22:36:24 lee assert_20250101223623_40.dmp[1633218]: Uploading dump (out-of-process) [proxy 'http://127.0.0.1:7890']
+                                                           /tmp/dumps/assert_20250101223623_40.dmp
+Jan 01 22:36:27 lee assert_20250101223623_40.dmp[1633218]: Finished uploading minidump (out-of-process): success = no
+Jan 01 22:36:27 lee assert_20250101223623_40.dmp[1633218]: error: SSL connect error
+Jan 01 22:36:27 lee steam[447253]: assert_20250101223623_40.dmp[1633218]: Finished uploading minidump (out-of-process): success = no
+Jan 01 22:36:27 lee steam[447253]: assert_20250101223623_40.dmp[1633218]: error: SSL connect error
+Jan 01 22:36:27 lee steam[447253]: assert_20250101223623_40.dmp[1633218]: file ''/tmp/dumps/assert_20250101223623_40.dmp'', upload no: ''SSL connect error''
+Jan 01 22:36:27 lee assert_20250101223623_40.dmp[1633218]: file ''/tmp/dumps/assert_20250101223623_40.dmp'', upload no: ''SSL connect error''
+Jan 01 22:39:01 lee kernel: INFO: task nvidia-modeset/:446 blocked for more than 122 seconds.
+Jan 01 22:39:01 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:39:01 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:39:01 lee kernel: task:nvidia-modeset/ state:D stack:0     pid:446   tgid:446   ppid:2      flags:0x00004000
+Jan 01 22:39:01 lee kernel: Call Trace:
+Jan 01 22:39:01 lee kernel:  <TASK>
+Jan 01 22:39:01 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:39:01 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:39:01 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:39:01 lee kernel:  rwsem_down_read_slowpath+0x26f/0x4e0
+Jan 01 22:39:01 lee kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  down_read+0x48/0xa0
+Jan 01 22:39:01 lee kernel:  nvkms_kthread_q_callback+0x140/0x160 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  _main_loop+0x95/0x150 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  kthread+0xcf/0x100
+Jan 01 22:39:01 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:39:01 lee kernel:  ret_from_fork+0x31/0x50
+Jan 01 22:39:01 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:39:01 lee kernel:  ret_from_fork_asm+0x1a/0x30
+Jan 01 22:39:01 lee kernel:  </TASK>
+Jan 01 22:39:01 lee kernel: INFO: task waybar:442664 blocked for more than 122 seconds.
+Jan 01 22:39:01 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:39:01 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:39:01 lee kernel: task:waybar          state:D stack:0     pid:442664 tgid:442485 ppid:1      flags:0x00000002
+Jan 01 22:39:01 lee kernel: Call Trace:
+Jan 01 22:39:01 lee kernel:  <TASK>
+Jan 01 22:39:01 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:39:01 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:39:01 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:39:01 lee kernel:  __mutex_lock.constprop.0+0x31e/0x620
+Jan 01 22:39:01 lee kernel:  actual_brightness_show+0x28/0x90
+Jan 01 22:39:01 lee kernel:  dev_attr_show+0x19/0x40
+Jan 01 22:39:01 lee kernel:  sysfs_kf_seq_show+0xa8/0xf0
+Jan 01 22:39:01 lee kernel:  seq_read_iter+0x11c/0x460
+Jan 01 22:39:01 lee kernel:  vfs_read+0x299/0x370
+Jan 01 22:39:01 lee kernel:  ksys_read+0x6d/0xf0
+Jan 01 22:39:01 lee kernel:  do_syscall_64+0x82/0x190
+Jan 01 22:39:01 lee kernel:  ? __do_sys_newfstat+0x68/0x70
+Jan 01 22:39:01 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:39:01 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:39:01 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:39:01 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:39:01 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:39:01 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:39:01 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:39:01 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:39:01 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Jan 01 22:39:01 lee kernel: RIP: 0033:0x7eb5c7cecc5a
+Jan 01 22:39:01 lee kernel: RSP: 002b:00007eb54a7fb600 EFLAGS: 00000246 ORIG_RAX: 0000000000000000
+Jan 01 22:39:01 lee kernel: RAX: ffffffffffffffda RBX: 000000000000001e RCX: 00007eb5c7cecc5a
+Jan 01 22:39:01 lee kernel: RDX: 0000000000001008 RSI: 00007eb530006d90 RDI: 000000000000001e
+Jan 01 22:39:01 lee kernel: RBP: 00007eb54a7fb620 R08: 0000000000000000 R09: 0000000000000001
+Jan 01 22:39:01 lee kernel: R10: 0000000000000003 R11: 0000000000000246 R12: 00007eb530006d90
+Jan 01 22:39:01 lee kernel: R13: 0000000000001008 R14: 0000000000001008 R15: 0000000000001007
+Jan 01 22:39:01 lee kernel:  </TASK>
+Jan 01 22:39:01 lee kernel: INFO: task nvidia-sleep.sh:1633107 blocked for more than 122 seconds.
+Jan 01 22:39:01 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:39:01 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:39:01 lee kernel: task:nvidia-sleep.sh state:D stack:0     pid:1633107 tgid:1633107 ppid:1      flags:0x00004002
+Jan 01 22:39:01 lee kernel: Call Trace:
+Jan 01 22:39:01 lee kernel:  <TASK>
+Jan 01 22:39:01 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:39:01 lee kernel:  ? __slab_free+0xdf/0x2f0
+Jan 01 22:39:01 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:39:01 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:39:01 lee kernel:  __mutex_lock.constprop.0+0x31e/0x620
+Jan 01 22:39:01 lee kernel:  backlight_device_unregister.part.0+0x84/0xb0
+Jan 01 22:39:01 lee kernel:  nvkms_unregister_backlight+0x1b/0x30 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  nvRmUnregisterBacklight+0x19/0x30 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  nvFreeCoreChannelEvo+0x7e/0x240 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  nvKmsSuspend+0x68/0xa0 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  nvkms_suspend+0x2d/0x50 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:39:01 lee kernel:  nv_set_system_power_state+0x14f/0x480 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:39:01 lee kernel:  nv_procfs_write_suspend+0xef/0x170 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:39:01 lee kernel:  proc_reg_write+0x57/0xa0
+Jan 01 22:39:01 lee kernel:  vfs_write+0xf5/0x450
+Jan 01 22:39:01 lee kernel:  ? __do_sys_newfstat+0x68/0x70
+Jan 01 22:39:01 lee kernel:  ksys_write+0x6d/0xf0
+Jan 01 22:39:01 lee kernel:  do_syscall_64+0x82/0x190
+Jan 01 22:39:01 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:39:01 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:39:01 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:39:01 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:39:01 lee kernel:  ? __handle_mm_fault+0xaad/0xfa0
+Jan 01 22:39:01 lee kernel:  ? get_close_on_exec+0x34/0x40
+Jan 01 22:39:01 lee kernel:  ? __count_memcg_events+0x53/0xf0
+Jan 01 22:39:01 lee kernel:  ? count_memcg_events.constprop.0+0x1a/0x30
+Jan 01 22:39:01 lee kernel:  ? handle_mm_fault+0x1bb/0x2c0
+Jan 01 22:39:01 lee kernel:  ? do_user_addr_fault+0x36c/0x620
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:39:01 lee kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Jan 01 22:39:01 lee kernel: RIP: 0033:0x7dacbcd6e7a4
+Jan 01 22:39:01 lee kernel: RSP: 002b:00007ffc6d2bed58 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+Jan 01 22:39:01 lee kernel: RAX: ffffffffffffffda RBX: 000000000000000a RCX: 00007dacbcd6e7a4
+Jan 01 22:39:01 lee kernel: RDX: 000000000000000a RSI: 00005a4daba7d370 RDI: 0000000000000001
+Jan 01 22:39:01 lee kernel: RBP: 00007ffc6d2bed80 R08: 0000000000000410 R09: 0000000000000001
+Jan 01 22:39:01 lee kernel: R10: 0000000000000004 R11: 0000000000000202 R12: 000000000000000a
+Jan 01 22:39:01 lee kernel: R13: 00005a4daba7d370 R14: 00007dacbce4a5c0 R15: 00007dacbce47ea0
+Jan 01 22:39:01 lee kernel:  </TASK>
+Jan 01 22:39:04 lee steam[447253]: src/common/pipes.cpp (883) : fatal stalled cross-thread pipe.
+Jan 01 22:39:04 lee steam[447253]: src/common/pipes.cpp (883) : fatal stalled cross-thread pipe.
+Jan 01 22:39:04 lee steam[447253]: src/common/pipes.cpp (883) : Fatal assert; application exiting
+Jan 01 22:39:04 lee steam[447253]: src/common/pipes.cpp (883) : Fatal assert; application exiting
+Jan 01 22:39:04 lee steam[447253]: 01/01 22:39:04 Init: Installing breakpad exception handler for appid(steam)/version(1733265492)/tid(1628190)
+Jan 01 22:39:04 lee steam[447253]: assert_20250101223904_43.dmp[1633761]: Uploading dump (out-of-process) [proxy 'http://127.0.0.1:7890']
+Jan 01 22:39:04 lee assert_20250101223904_43.dmp[1633761]: Uploading dump (out-of-process) [proxy 'http://127.0.0.1:7890']
+                                                           /tmp/dumps/assert_20250101223904_43.dmp
+Jan 01 22:39:04 lee steam[447253]: /tmp/dumps/assert_20250101223904_43.dmp
+Jan 01 22:39:07 lee assert_20250101223904_43.dmp[1633761]: Finished uploading minidump (out-of-process): success = no
+Jan 01 22:39:07 lee assert_20250101223904_43.dmp[1633761]: error: SSL connect error
+Jan 01 22:39:07 lee steam[447253]: assert_20250101223904_43.dmp[1633761]: Finished uploading minidump (out-of-process): success = no
+Jan 01 22:39:07 lee steam[447253]: assert_20250101223904_43.dmp[1633761]: error: SSL connect error
+Jan 01 22:39:07 lee steam[447253]: assert_20250101223904_43.dmp[1633761]: file ''/tmp/dumps/assert_20250101223904_43.dmp'', upload no: ''SSL connect error''
+Jan 01 22:39:07 lee assert_20250101223904_43.dmp[1633761]: file ''/tmp/dumps/assert_20250101223904_43.dmp'', upload no: ''SSL connect error''
+Jan 01 22:41:04 lee kernel: INFO: task nvidia-modeset/:446 blocked for more than 245 seconds.
+Jan 01 22:41:04 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:41:04 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:41:04 lee kernel: task:nvidia-modeset/ state:D stack:0     pid:446   tgid:446   ppid:2      flags:0x00004000
+Jan 01 22:41:04 lee kernel: Call Trace:
+Jan 01 22:41:04 lee kernel:  <TASK>
+Jan 01 22:41:04 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:41:04 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:41:04 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:41:04 lee kernel:  rwsem_down_read_slowpath+0x26f/0x4e0
+Jan 01 22:41:04 lee kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  down_read+0x48/0xa0
+Jan 01 22:41:04 lee kernel:  nvkms_kthread_q_callback+0x140/0x160 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  _main_loop+0x95/0x150 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  kthread+0xcf/0x100
+Jan 01 22:41:04 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:41:04 lee kernel:  ret_from_fork+0x31/0x50
+Jan 01 22:41:04 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:41:04 lee kernel:  ret_from_fork_asm+0x1a/0x30
+Jan 01 22:41:04 lee kernel:  </TASK>
+Jan 01 22:41:04 lee kernel: INFO: task waybar:442664 blocked for more than 245 seconds.
+Jan 01 22:41:04 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:41:04 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:41:04 lee kernel: task:waybar          state:D stack:0     pid:442664 tgid:442485 ppid:1      flags:0x00000002
+Jan 01 22:41:04 lee kernel: Call Trace:
+Jan 01 22:41:04 lee kernel:  <TASK>
+Jan 01 22:41:04 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:41:04 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:41:04 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:41:04 lee kernel:  __mutex_lock.constprop.0+0x31e/0x620
+Jan 01 22:41:04 lee kernel:  actual_brightness_show+0x28/0x90
+Jan 01 22:41:04 lee kernel:  dev_attr_show+0x19/0x40
+Jan 01 22:41:04 lee kernel:  sysfs_kf_seq_show+0xa8/0xf0
+Jan 01 22:41:04 lee kernel:  seq_read_iter+0x11c/0x460
+Jan 01 22:41:04 lee kernel:  vfs_read+0x299/0x370
+Jan 01 22:41:04 lee kernel:  ksys_read+0x6d/0xf0
+Jan 01 22:41:04 lee kernel:  do_syscall_64+0x82/0x190
+Jan 01 22:41:04 lee kernel:  ? __do_sys_newfstat+0x68/0x70
+Jan 01 22:41:04 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:41:04 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:41:04 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:41:04 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:41:04 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:41:04 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:41:04 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:41:04 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:41:04 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Jan 01 22:41:04 lee kernel: RIP: 0033:0x7eb5c7cecc5a
+Jan 01 22:41:04 lee kernel: RSP: 002b:00007eb54a7fb600 EFLAGS: 00000246 ORIG_RAX: 0000000000000000
+Jan 01 22:41:04 lee kernel: RAX: ffffffffffffffda RBX: 000000000000001e RCX: 00007eb5c7cecc5a
+Jan 01 22:41:04 lee kernel: RDX: 0000000000001008 RSI: 00007eb530006d90 RDI: 000000000000001e
+Jan 01 22:41:04 lee kernel: RBP: 00007eb54a7fb620 R08: 0000000000000000 R09: 0000000000000001
+Jan 01 22:41:04 lee kernel: R10: 0000000000000003 R11: 0000000000000246 R12: 00007eb530006d90
+Jan 01 22:41:04 lee kernel: R13: 0000000000001008 R14: 0000000000001008 R15: 0000000000001007
+Jan 01 22:41:04 lee kernel:  </TASK>
+Jan 01 22:41:04 lee kernel: INFO: task nvidia-sleep.sh:1633107 blocked for more than 245 seconds.
+Jan 01 22:41:04 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:41:04 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:41:04 lee kernel: task:nvidia-sleep.sh state:D stack:0     pid:1633107 tgid:1633107 ppid:1      flags:0x00004002
+Jan 01 22:41:04 lee kernel: Call Trace:
+Jan 01 22:41:04 lee kernel:  <TASK>
+Jan 01 22:41:04 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:41:04 lee kernel:  ? __slab_free+0xdf/0x2f0
+Jan 01 22:41:04 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:41:04 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:41:04 lee kernel:  __mutex_lock.constprop.0+0x31e/0x620
+Jan 01 22:41:04 lee kernel:  backlight_device_unregister.part.0+0x84/0xb0
+Jan 01 22:41:04 lee kernel:  nvkms_unregister_backlight+0x1b/0x30 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  nvRmUnregisterBacklight+0x19/0x30 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  nvFreeCoreChannelEvo+0x7e/0x240 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  nvKmsSuspend+0x68/0xa0 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  nvkms_suspend+0x2d/0x50 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:41:04 lee kernel:  nv_set_system_power_state+0x14f/0x480 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:41:04 lee kernel:  nv_procfs_write_suspend+0xef/0x170 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:41:04 lee kernel:  proc_reg_write+0x57/0xa0
+Jan 01 22:41:04 lee kernel:  vfs_write+0xf5/0x450
+Jan 01 22:41:04 lee kernel:  ? __do_sys_newfstat+0x68/0x70
+Jan 01 22:41:04 lee kernel:  ksys_write+0x6d/0xf0
+Jan 01 22:41:04 lee kernel:  do_syscall_64+0x82/0x190
+Jan 01 22:41:04 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:41:04 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:41:04 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:41:04 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:41:04 lee kernel:  ? __handle_mm_fault+0xaad/0xfa0
+Jan 01 22:41:04 lee kernel:  ? get_close_on_exec+0x34/0x40
+Jan 01 22:41:04 lee kernel:  ? __count_memcg_events+0x53/0xf0
+Jan 01 22:41:04 lee kernel:  ? count_memcg_events.constprop.0+0x1a/0x30
+Jan 01 22:41:04 lee kernel:  ? handle_mm_fault+0x1bb/0x2c0
+Jan 01 22:41:04 lee kernel:  ? do_user_addr_fault+0x36c/0x620
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:41:04 lee kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Jan 01 22:41:04 lee kernel: RIP: 0033:0x7dacbcd6e7a4
+Jan 01 22:41:04 lee kernel: RSP: 002b:00007ffc6d2bed58 EFLAGS: 00000202 ORIG_RAX: 0000000000000001
+Jan 01 22:41:04 lee kernel: RAX: ffffffffffffffda RBX: 000000000000000a RCX: 00007dacbcd6e7a4
+Jan 01 22:41:04 lee kernel: RDX: 000000000000000a RSI: 00005a4daba7d370 RDI: 0000000000000001
+Jan 01 22:41:04 lee kernel: RBP: 00007ffc6d2bed80 R08: 0000000000000410 R09: 0000000000000001
+Jan 01 22:41:04 lee kernel: R10: 0000000000000004 R11: 0000000000000202 R12: 000000000000000a
+Jan 01 22:41:04 lee kernel: R13: 00005a4daba7d370 R14: 00007dacbce4a5c0 R15: 00007dacbce47ea0
+Jan 01 22:41:04 lee kernel:  </TASK>
+Jan 01 22:43:06 lee kernel: INFO: task nv_queue:360 blocked for more than 122 seconds.
+Jan 01 22:43:06 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:43:06 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:43:06 lee kernel: task:nv_queue        state:D stack:0     pid:360   tgid:360   ppid:2      flags:0x00004000
+Jan 01 22:43:06 lee kernel: Call Trace:
+Jan 01 22:43:06 lee kernel:  <TASK>
+Jan 01 22:43:06 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:43:06 lee kernel:  ? sched_clock+0x10/0x30
+Jan 01 22:43:06 lee kernel:  ? sched_balance_newidle+0x26e/0x460
+Jan 01 22:43:06 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:43:06 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:43:06 lee kernel:  rwsem_down_read_slowpath+0x26f/0x4e0
+Jan 01 22:43:06 lee kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:43:06 lee kernel:  down_read+0x48/0xa0
+Jan 01 22:43:06 lee kernel:  nvidia_close_deferred+0x25/0x40 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:43:06 lee kernel:  _main_loop+0x95/0x150 [nvidia 245743ffc630b537299029e25e2862f71f959ec9]
+Jan 01 22:43:06 lee kernel:  kthread+0xcf/0x100
+Jan 01 22:43:06 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:06 lee kernel:  ret_from_fork+0x31/0x50
+Jan 01 22:43:06 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:06 lee kernel:  ret_from_fork_asm+0x1a/0x30
+Jan 01 22:43:06 lee kernel:  </TASK>
+Jan 01 22:43:06 lee kernel: INFO: task nvidia-modeset/:446 blocked for more than 368 seconds.
+Jan 01 22:43:06 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:43:06 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:43:06 lee kernel: task:nvidia-modeset/ state:D stack:0     pid:446   tgid:446   ppid:2      flags:0x00004000
+Jan 01 22:43:06 lee kernel: Call Trace:
+Jan 01 22:43:06 lee kernel:  <TASK>
+Jan 01 22:43:06 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:43:06 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:43:06 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:43:06 lee kernel:  rwsem_down_read_slowpath+0x26f/0x4e0
+Jan 01 22:43:06 lee kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:06 lee kernel:  down_read+0x48/0xa0
+Jan 01 22:43:06 lee kernel:  nvkms_kthread_q_callback+0x140/0x160 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:06 lee kernel:  _main_loop+0x95/0x150 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:06 lee kernel:  kthread+0xcf/0x100
+Jan 01 22:43:06 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:06 lee kernel:  ret_from_fork+0x31/0x50
+Jan 01 22:43:06 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:06 lee kernel:  ret_from_fork_asm+0x1a/0x30
+Jan 01 22:43:06 lee kernel:  </TASK>
+Jan 01 22:43:06 lee kernel: INFO: task nvidia-modeset/:447 blocked for more than 122 seconds.
+Jan 01 22:43:06 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:43:06 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:43:06 lee kernel: task:nvidia-modeset/ state:D stack:0     pid:447   tgid:447   ppid:2      flags:0x00004000
+Jan 01 22:43:06 lee kernel: Call Trace:
+Jan 01 22:43:06 lee kernel:  <TASK>
+Jan 01 22:43:06 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:43:06 lee kernel:  ? sched_clock_cpu+0xf/0x1d0
+Jan 01 22:43:06 lee kernel:  ? raw_spin_rq_lock_nested+0x1c/0x80
+Jan 01 22:43:06 lee kernel:  ? should_numa_migrate_memory+0x8e/0x470
+Jan 01 22:43:06 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:43:06 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:43:06 lee kernel:  rwsem_down_read_slowpath+0x26f/0x4e0
+Jan 01 22:43:06 lee kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:06 lee kernel:  down_read+0x48/0xa0
+Jan 01 22:43:07 lee kernel:  nvkms_close_pm_unlocked+0x9e/0xb0 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:07 lee kernel:  _main_loop+0x95/0x150 [nvidia_modeset 4afc9ce53381a97d045239e8b20e6c39a6568140]
+Jan 01 22:43:07 lee kernel:  kthread+0xcf/0x100
+Jan 01 22:43:07 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:07 lee kernel:  ret_from_fork+0x31/0x50
+Jan 01 22:43:07 lee kernel:  ? __pfx_kthread+0x10/0x10
+Jan 01 22:43:07 lee kernel:  ret_from_fork_asm+0x1a/0x30
+Jan 01 22:43:07 lee kernel:  </TASK>
+Jan 01 22:43:07 lee kernel: INFO: task waybar:442664 blocked for more than 368 seconds.
+Jan 01 22:43:07 lee kernel:       Tainted: G           OE      6.12.7-arch1-1 #1
+Jan 01 22:43:07 lee kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Jan 01 22:43:07 lee kernel: task:waybar          state:D stack:0     pid:442664 tgid:442485 ppid:1      flags:0x00000002
+Jan 01 22:43:07 lee kernel: Call Trace:
+Jan 01 22:43:07 lee kernel:  <TASK>
+Jan 01 22:43:07 lee kernel:  __schedule+0x3b0/0x12b0
+Jan 01 22:43:07 lee kernel:  schedule+0x27/0xf0
+Jan 01 22:43:07 lee kernel:  schedule_preempt_disabled+0x15/0x30
+Jan 01 22:43:07 lee kernel:  __mutex_lock.constprop.0+0x31e/0x620
+Jan 01 22:43:07 lee kernel:  actual_brightness_show+0x28/0x90
+Jan 01 22:43:07 lee kernel:  dev_attr_show+0x19/0x40
+Jan 01 22:43:07 lee kernel:  sysfs_kf_seq_show+0xa8/0xf0
+Jan 01 22:43:07 lee kernel:  seq_read_iter+0x11c/0x460
+Jan 01 22:43:07 lee kernel:  vfs_read+0x299/0x370
+Jan 01 22:43:07 lee kernel:  ksys_read+0x6d/0xf0
+Jan 01 22:43:07 lee kernel:  do_syscall_64+0x82/0x190
+Jan 01 22:43:07 lee kernel:  ? __do_sys_newfstat+0x68/0x70
+Jan 01 22:43:07 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:43:07 lee kernel:  ? do_syscall_64+0x8e/0x190
+Jan 01 22:43:07 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:43:07 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:43:07 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:43:07 lee kernel:  ? __memcg_slab_free_hook+0xf7/0x140
+Jan 01 22:43:07 lee kernel:  ? __x64_sys_close+0x3c/0x80
+Jan 01 22:43:07 lee kernel:  ? kmem_cache_free+0x3fa/0x450
+Jan 01 22:43:07 lee kernel:  ? syscall_exit_to_user_mode+0x37/0x1c0
+Jan 01 22:43:07 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:43:07 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:43:07 lee kernel:  ? clear_bhb_loop+0x25/0x80
+Jan 01 22:43:07 lee kernel:  entry_SYSCALL_64_after_hwframe+0x76/0x7e
+Jan 01 22:43:07 lee kernel: RIP: 0033:0x7eb5c7cecc5a
+Jan 01 22:43:07 lee kernel: RSP: 002b:00007eb54a7fb600 EFLAGS: 00000246 ORIG_RAX: 0000000000000000
+Jan 01 22:43:07 lee kernel: RAX: ffffffffffffffda RBX: 000000000000001e RCX: 00007eb5c7cecc5a
+Jan 01 22:43:07 lee kernel: RDX: 0000000000001008 RSI: 00007eb530006d90 RDI: 000000000000001e
+Jan 01 22:43:07 lee kernel: RBP: 00007eb54a7fb620 R08: 0000000000000000 R09: 0000000000000001
+Jan 01 22:43:07 lee kernel: R10: 0000000000000003 R11: 0000000000000246 R12: 00007eb530006d90
+Jan 01 22:43:07 lee kernel: R13: 0000000000001008 R14: 0000000000001008 R15: 0000000000001007
+Jan 01 22:43:07 lee kernel:  </TASK>
+Jan 01 22:43:07 lee kernel: Future hung task reports are suppressed, see sysctl kernel.hung_task_warnings
+Jan 01 22:48:38 lee fcitx5[442503]: I2025-01-01 22:48:38.804049 instance.cpp:1223] Running autosave...
+Jan 01 22:48:39 lee fcitx5[442503]: I2025-01-01 22:48:39.114938 instance.cpp:1225] End autosave
+Jan 01 23:00:00 lee crond[1637811]: pam_unix(crond:session): session opened for user silver(uid=1000) by silver(uid=0)
+Jan 01 23:00:00 lee CROND[1637813]: (silver) CMD ($HOME/.local/bin/dlweather)
+Jan 01 23:00:04 lee CROND[1637811]: (silver) CMDOUT (Error: Failed to get weather information. Please check your network connection or city name.)
+Jan 01 23:00:04 lee CROND[1637811]: (silver) CMDEND ($HOME/.local/bin/dlweather)
+Jan 01 23:00:04 lee CROND[1637811]: pam_unix(crond:session): session closed for user silver
+Jan 01 23:01:01 lee CROND[1638004]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 01 23:01:01 lee CROND[1638003]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jan 01 23:19:38 lee fcitx5[442503]: I2025-01-01 23:19:38.804047 instance.cpp:1223] Running autosave...
+Jan 01 23:19:39 lee fcitx5[442503]: I2025-01-01 23:19:39.129413 instance.cpp:1225] End autosave
+Jan 01 23:50:38 lee fcitx5[442503]: I2025-01-01 23:50:38.804052 instance.cpp:1223] Running autosave...
+Jan 01 23:50:39 lee fcitx5[442503]: I2025-01-01 23:50:39.208395 instance.cpp:1225] End autosave
+Jan 02 00:00:00 lee crond[1649119]: pam_unix(crond:session): session opened for user silver(uid=1000) by silver(uid=0)
+Jan 02 00:00:00 lee systemd[1]: Started Verify integrity of password and group files.
+Jan 02 00:00:00 lee CROND[1649122]: (silver) CMD ($HOME/.local/bin/dlweather)
+Jan 02 00:00:00 lee systemd[1]: shadow.service: Deactivated successfully.
+Jan 02 00:00:03 lee CROND[1649119]: (silver) CMDOUT (Error: Failed to get weather information. Please check your network connection or city name.)
+Jan 02 00:00:03 lee CROND[1649119]: (silver) CMDEND ($HOME/.local/bin/dlweather)
+Jan 02 00:00:03 lee CROND[1649119]: pam_unix(crond:session): session closed for user silver
+Jan 02 00:01:00 lee CROND[1649321]: (root) CMD (run-parts /etc/cron.hourly)
+Jan 02 00:01:00 lee anacron[1649330]: Anacron started on 2025-01-02
+Jan 02 00:01:00 lee CROND[1649320]: (root) CMDEND (run-parts /etc/cron.hourly)
+Jan 02 00:01:00 lee anacron[1649330]: Normal exit (0 jobs run)
+Jan 02 00:19:54 lee systemd[1]: Starting Daily man-db regeneration...
+Jan 02 00:20:07 lee systemd[1]: man-db.service: Deactivated successfully.
+Jan 02 00:20:07 lee systemd[1]: Finished Daily man-db regeneration.
+Jan 02 00:20:07 lee systemd[1]: man-db.service: Consumed 11.420s CPU time, 142.2M memory peak.
+Jan 02 00:21:38 lee fcitx5[442503]: I2025-01-02 00:21:38.804099 instance.cpp:1223] Running autosave...
+Jan 02 00:21:39 lee fcitx5[442503]: I2025-01-02 00:21:39.183981 instance.cpp:1225] End autosave
